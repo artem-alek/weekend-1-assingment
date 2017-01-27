@@ -4,7 +4,7 @@
   -webkit-box-sizing: border-box;
   border: 1px solid red;
 }
-h1 {
+.offer h1 {
   color: white;
 }
 
@@ -76,7 +76,7 @@ nav {
   background: #111111;
 }
 
-.main-content {
+.main-content-top {
   margin: 5%;
   text-align: center;
 }
@@ -98,10 +98,38 @@ nav {
 .offer-title3 {
   font-size: .8em;
 }
+
 .offer-list {
   padding: 0px;
+  margin: 0px;
 }
+
+.offer-button h1 {
+  margin: 0px;
+  color: black;
+}
+
 .offer-list li {
   list-style: none;
   display: block;
+}
+
+.bottom-text {
+  display: inline-block;
+  width: 30%;
+  margin: 8%;
+
+}
+
+footer p {
+  color: lightgrey;
+}
+
+footer a {
+  color: white;
+}
+
+footer {
+  background: black;
+  text-align: center;
 }
