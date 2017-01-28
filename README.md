@@ -1,8 +1,7 @@
 #Simply Pricing Weekend Normal Mode 1
+  Do a html and css mockup of the image 'normal.png'
 
-  ## Do a html and css mockup of the image 'normal.png'
-
-###S teps Taken To Achieve This.
+### Steps Taken To Achieve This.
   1. Create wireframe using div's as containers to get the proper framework of the site.
   2. Fill in content that matches the sample picture along with background colors.
   3. Used a lot of un-order lists and and floated them.
