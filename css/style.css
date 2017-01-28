@@ -2,7 +2,7 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border: 1px solid red;
+  font-family: 'Work Sans', sans-serif;
 }
 .offer h1 {
   color: white;
@@ -14,6 +14,14 @@
   height: 325px;
   background-size: cover;
   padding: 8.5%;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.logo {
+  padding-left: 21px;
 }
 
 nav a{
@@ -36,7 +44,7 @@ nav {
 }
 .inblock {
   margin:0px;
-  padding:0px;
+  padding:4px;
 }
 
 .link {
@@ -70,38 +78,49 @@ nav {
 
 .offer-price1 {
   background: #389449;
-
+  padding: 5%;
+  height: 180px;
 }
 
 .offer-price2{
   background: #244989;
+  padding: 5%;
+  height: 180px;
 }
 
 .offer-price3 {
   background: #111111;
+  padding: 5%;
+  height: 180px;
 }
 
 .main-content-top {
-  margin: 5%;
+  margin: 4.2%;
   text-align: center;
 }
 
 .offer {
-  width: 250px;
-  margin: 0px auto;
+  width: 255px;
+  margin: 0px 4px;
   display: inline-block;
 }
 
 .offer-title1 {
-  font-size: 1em;
+  font-size: .9em;
+  margin-bottom: 0px;
+  letter-spacing: 2.6px;
 }
 
 .offer-title2 {
-  font-size: 1.5em;
+  font-size: 5em;
+  font-weight: normal;
+  margin: -2px;
 }
 
 .offer-title3 {
-  font-size: .8em;
+  font-size: 16px;
+  margin: 2px;
+  color: lightgrey !important;
 }
 
 .offer-list {
@@ -109,25 +128,68 @@ nav {
   margin: 0px;
 }
 
+.offer-button {
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding: 10%;
+}
+
 .offer-button h1 {
   margin: 0px;
   color: black;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #d0d0d0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: inline-block;
+  height: 25px;
+  width: 82px;
+  padding: 3px;
 }
 
 .offer-list li {
   list-style: none;
   display: block;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  background: #F7F7F7;
+  padding: 4.3%;
+  color: #424242;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 .bottom-text {
-  display: inline-block;
-  width: 30%;
-  margin: 8%;
+  width: 310px;
+  margin: 0px 4% 0px 4%;
+  float: left;
 
+}
+
+.main-content-bottom{
+  margin: 5%;
+  padding-left: 13%;
+  overflow: auto;
+}
+
+.main-content-bottom h3 {
+  font-size: 16px;
+}
+
+.main-content-bottom p {
+  font-size: 14px;
 }
 
 footer p {
   color: lightgrey;
+  margin: 0px;
+  padding: 20px;
+  font-size: 14px;
 }
 
 footer a {
